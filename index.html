@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio i Göteborg</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #e94560;
+      font-size: 2rem;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 0;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .nav-tab {
+      padding: 12px 24px;
+      border: none;
+      background: #16213e;
+      color: #888;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s;
+    }
+
+    .nav-tab:first-child {
+      border-radius: 8px 0 0 8px;
+    }
+
+    .nav-tab:last-child {
+      border-radius: 0 8px 8px 0;
+    }
+
+    .nav-tab:hover {
+      background: #0f3460;
+      color: #eee;
+    }
+
+    .nav-tab.active {
+      background: #e94560;
+      color: white;
+    }
+
+    .search-container {
+      margin-bottom: 20px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: none;
+      background: #16213e;
+      color: #eee;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: box-shadow 0.2s;
+    }
+
+    .search-input:focus {
+      box-shadow: 0 0 0 2px #e94560;
+    }
+
+    .search-input::placeholder {
+      color: #666;
+    }
+
+    .date-picker {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .date-btn {
+      padding: 10px 16px;
+      border: none;
+      background: #16213e;
+      color: #eee;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .date-btn:hover {
+      background: #0f3460;
+    }
+
+    .date-btn.active {
+      background: #e94560;
+      color: white;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #888;
+    }
+
+    .error-notice {
+      background: #2d1f1f;
+      border-left: 4px solid #e94560;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .schedule {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .showing {
+      display: grid;
+      grid-template-columns: 60px 1fr auto;
+      gap: 16px;
+      padding: 16px;
+      background: #16213e;
+      border-radius: 12px;
+      align-items: center;
+      transition: transform 0.2s;
+    }
+
+    .showing:hover {
+      transform: translateX(4px);
+    }
+
+    .time {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #e94560;
+    }
+
+    .movie-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .title-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .title-link:hover {
+      color: #e94560;
+      text-decoration: underline;
+    }
+
+    .details {
+      font-size: 0.85rem;
+      color: #888;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .cinema-badge {
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .cinema-bioroy { background: #2d4a3e; color: #7bc89b; }
+    .cinema-capitol { background: #3d2d4a; color: #b87bc8; }
+    .cinema-hagabion { background: #4a3d2d; color: #c8a87b; }
+    .cinema-aftonstjarnan { background: #2d3d4a; color: #7bb8c8; }
+    .cinema-angered { background: #2d4a4a; color: #7bc8c8; }
+    .cinema-frolunda { background: #4a4a2d; color: #c8c87b; }
+    .cinema-filmstaden { background: #4a2d3d; color: #c87ba8; }
+
+    .no-shows {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+    }
+
+    .stats {
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+
+    .films-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .film-card {
+      padding: 16px;
+      background: #16213e;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .film-card:hover {
+      transform: translateX(4px);
+      background: #1a2744;
+    }
+
+    .film-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .film-meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    .film-showing-count {
+      color: #e94560;
+      font-weight: 500;
+    }
+
+    .film-cinemas {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .film-cinema-tag {
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+
+    .film-detail-header {
+      margin-bottom: 24px;
+    }
+
+    .back-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: #16213e;
+      border: none;
+      color: #eee;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+      margin-bottom: 16px;
+    }
+
+    .back-button:hover {
+      background: #0f3460;
+    }
+
+    .film-detail-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #e94560;
+      margin-bottom: 8px;
+    }
+
+    .film-detail-stats {
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    .showing-date-header {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e94560;
+      padding: 12px 0 8px 0;
+      border-bottom: 1px solid #2a2a4e;
+      margin-bottom: 12px;
+    }
+
+    .showing-date-header:not(:first-child) {
+      margin-top: 20px;
+    }
+
+    .sort-options {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .sort-label {
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    .sort-btn {
+      padding: 6px 12px;
+      border: none;
+      background: #16213e;
+      color: #888;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .sort-btn:hover {
+      background: #0f3460;
+      color: #eee;
+    }
+
+    .sort-btn.active {
+      background: #e94560;
+      color: white;
+    }
+
+    .cinema-status {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+
+    .status-chip {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      user-select: none;
+    }
+
+    .status-chip:hover {
+      transform: scale(1.05);
+    }
+
+    .status-chip.disabled {
+      opacity: 0.4;
+      text-decoration: line-through;
+    }
+
+    .status-ok { background: #1a3d1a; color: #6b6; }
+    .status-empty { background: #2d2d1f; color: #aa9; }
+    .status-blocked { background: #3d1a1a; color: #a66; }
+    .status-error { background: #3d1a1a; color: #c66; }
+    .status-timeout { background: #3d2d1a; color: #ca6; }
+    .status-updating { background: #1a2d3d; color: #6ac; animation: pulse 1.5s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    .last-updated {
+      text-align: center;
+      color: #555;
+      font-size: 0.8rem;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #2a2a4e;
+    }
+
+    @media (max-width: 600px) {
+      .showing {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .time {
+        font-size: 1rem;
+      }
+
+      .cinema-badge {
+        justify-self: start;
+      }
+    }
+
+    @media (min-width: 601px) {
+      .date-btn {
+        flex: 0 1 calc(25% - 6px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bio i Göteborg</h1>
+
+    <div class="nav-tabs">
+      <button class="nav-tab active" id="navDate">Per dag</button>
+      <button class="nav-tab" id="navFilms">Alla filmer</button>
+    </div>
+
+    <div class="search-container" id="searchContainer" style="display: none;">
+      <input type="text" class="search-input" id="searchInput" placeholder="Sök film...">
+    </div>
+
+    <div id="dateView">
+      <div class="date-picker" id="datePicker">
+        <!-- Dates will be inserted here -->
+      </div>
+
+      <div id="errors"></div>
+
+      <div id="schedule">
+        <div class="loading">Laddar...</div>
+      </div>
+
+      <div class="stats" id="stats"></div>
+    </div>
+
+    <div id="filmsView" style="display: none;">
+      <div id="filmsCinemaStatus"></div>
+      <div class="sort-options" id="sortOptions">
+        <span class="sort-label">Sortera:</span>
+        <button class="sort-btn active" id="sortAlpha">A-Ö</button>
+        <button class="sort-btn" id="sortCount">Flest visningar</button>
+      </div>
+      <div id="filmsList">
+        <div class="loading">Laddar filmer...</div>
+      </div>
+      <div class="stats" id="filmsStats"></div>
+    </div>
+
+    <div id="filmDetailView" style="display: none;">
+      <!-- Film detail will be rendered here -->
+    </div>
+
+    <div class="last-updated" id="lastUpdated"></div>
+  </div>
+
+  <script>
+    let currentDate = new Date().toISOString().split('T')[0];
+    let disabledCinemas = new Set();
+    let disabledFilmsCinemas = new Set();
+    let lastScheduleData = null;
+    let allFilmsData = null;
+    let currentView = 'date'; // 'date', 'films', 'filmDetail'
+    let searchQuery = '';
+    let filmsSortOrder = 'alpha'; // 'alpha' or 'count'
+    let cacheBuster = Date.now(); // Cache buster to prevent stale data
+    let suppressHashUpdate = false; // Prevent hash loops
+
+    // Fetch with cache busting
+    function fetchData(url) {
+      return fetch(url + '?v=' + cacheBuster);
+    }
+
+    // URL hash routing
+    function updateHash() {
+      if (suppressHashUpdate) return;
+      let hash;
+      if (currentView === 'films') {
+        hash = '#filmer';
+      } else if (currentView === 'filmDetail') {
+        hash = '#film/' + encodeURIComponent(currentFilmTitle || '');
+      } else {
+        hash = '#dag/' + currentDate;
+      }
+      // Add hidden cinemas as query-style param
+      const hidden = currentView === 'date' ? disabledCinemas
+        : (currentView === 'films' ? disabledFilmsCinemas : null);
+      if (hidden && hidden.size > 0) {
+        hash += '?hide=' + [...hidden].map(encodeURIComponent).join(',');
+      }
+      if (location.hash !== hash) {
+        history.pushState(null, '', hash);
+      }
+    }
+
+    let currentFilmTitle = null;
+
+    function applyHash() {
+      const raw = location.hash.slice(1);
+      const [path, query] = raw.split('?');
+      const hash = decodeURIComponent(path);
+
+      // Parse hidden cinemas from ?hide=...
+      let hiddenCinemas = [];
+      if (query) {
+        const params = new URLSearchParams(query);
+        const hide = params.get('hide');
+        if (hide) hiddenCinemas = hide.split(',').map(decodeURIComponent);
+      }
+
+      suppressHashUpdate = true;
+      if (hash.startsWith('film/')) {
+        const title = hash.slice(5);
+        currentFilmTitle = title;
+        if (allFilmsData) {
+          showFilmDetail(title);
+        } else {
+          // Need to load films first, then show detail
+          switchView('films');
+          fetchData('data/films.json').then(r => r.json()).then(data => {
+            allFilmsData = data;
+            showFilmDetail(title);
+            suppressHashUpdate = false;
+          });
+          return;
+        }
+      } else if (hash === 'filmer') {
+        disabledFilmsCinemas = new Set(hiddenCinemas);
+        switchView('films');
+        if (allFilmsData) renderFilmsList();
+      } else if (hash.startsWith('dag/')) {
+        const date = hash.slice(4);
+        if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+          currentDate = date;
+          disabledCinemas = new Set(hiddenCinemas);
+          switchView('date');
+          document.querySelectorAll('.date-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.date === date);
+          });
+          loadSchedule(date);
+        }
+      } else {
+        switchView('date');
+      }
+      suppressHashUpdate = false;
+    }
+
+    window.addEventListener('popstate', applyHash);
+
+    // Navigation
+    document.getElementById('navDate').addEventListener('click', () => switchView('date'));
+    document.getElementById('navFilms').addEventListener('click', () => switchView('films'));
+
+    // Sort buttons
+    document.getElementById('sortAlpha').addEventListener('click', () => {
+      filmsSortOrder = 'alpha';
+      document.getElementById('sortAlpha').classList.add('active');
+      document.getElementById('sortCount').classList.remove('active');
+      renderFilmsList();
+    });
+    document.getElementById('sortCount').addEventListener('click', () => {
+      filmsSortOrder = 'count';
+      document.getElementById('sortCount').classList.add('active');
+      document.getElementById('sortAlpha').classList.remove('active');
+      renderFilmsList();
+    });
+
+    // Search
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase();
+      if (currentView === 'films') {
+        renderFilmsList();
+      }
+    });
+
+    function switchView(view) {
+      const previousView = currentView;
+      currentView = view;
+
+      document.getElementById('navDate').classList.toggle('active', view === 'date');
+      document.getElementById('navFilms').classList.toggle('active', view === 'films' || view === 'filmDetail');
+
+      document.getElementById('dateView').style.display = view === 'date' ? 'block' : 'none';
+      document.getElementById('filmsView').style.display = view === 'films' ? 'block' : 'none';
+      document.getElementById('filmDetailView').style.display = view === 'filmDetail' ? 'block' : 'none';
+      document.getElementById('searchContainer').style.display = view === 'films' ? 'block' : 'none';
+
+      if (view === 'films') {
+        if (previousView === 'filmDetail' && searchQuery) {
+          searchQuery = '';
+          document.getElementById('searchInput').value = '';
+          renderFilmsList();
+        }
+        if (!allFilmsData) {
+          loadFilms();
+        }
+      }
+
+      updateHash();
+    }
+
+    async function loadDates() {
+      const res = await fetchData('data/dates.json');
+      const dates = await res.json();
+
+      const picker = document.getElementById('datePicker');
+      picker.innerHTML = dates.map(d => `
+        <button class="date-btn ${d.value === currentDate ? 'active' : ''}"
+                data-date="${d.value}">
+          ${d.label}
+        </button>
+      `).join('');
+
+      picker.querySelectorAll('.date-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentDate = btn.dataset.date;
+          updateHash();
+          loadSchedule(currentDate);
+        });
+      });
+    }
+
+    async function loadSchedule(date) {
+      const container = document.getElementById('schedule');
+      const errorsDiv = document.getElementById('errors');
+
+      container.innerHTML = '<div class="loading">Laddar visningar...</div>';
+      errorsDiv.innerHTML = '';
+
+      try {
+        const res = await fetchData(`data/schedule-${date}.json`);
+        lastScheduleData = await res.json();
+        renderSchedule();
+      } catch (error) {
+        container.innerHTML = `<div class="error-notice">Fel vid hämtning: ${error.message}</div>`;
+      }
+    }
+
+    async function loadFilms() {
+      const container = document.getElementById('filmsList');
+      container.innerHTML = '<div class="loading">Laddar filmer för veckan...</div>';
+
+      try {
+        const res = await fetchData('data/films.json');
+        allFilmsData = await res.json();
+        renderFilmsList();
+      } catch (error) {
+        container.innerHTML = `<div class="error-notice">Fel vid hämtning: ${error.message}</div>`;
+      }
+    }
+
+    function toggleFilmsCinema(cinema) {
+      if (disabledFilmsCinemas.has(cinema)) {
+        disabledFilmsCinemas.delete(cinema);
+      } else {
+        disabledFilmsCinemas.add(cinema);
+      }
+      updateHash();
+      renderFilmsList();
+    }
+
+    function renderFilmsList() {
+      if (!allFilmsData) return;
+
+      const container = document.getElementById('filmsList');
+      const statsDiv = document.getElementById('filmsStats');
+      const cinemaStatusDiv = document.getElementById('filmsCinemaStatus');
+
+      // Count films per cinema
+      const cinemaFilmCounts = {};
+      allFilmsData.films.forEach(film => {
+        film.cinemas.forEach(cinema => {
+          cinemaFilmCounts[cinema] = (cinemaFilmCounts[cinema] || 0) + 1;
+        });
+      });
+
+      // Render cinema status
+      const statusHtml = Object.entries(cinemaFilmCounts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([cinema, count]) => {
+          const disabledClass = disabledFilmsCinemas.has(cinema) ? 'disabled' : '';
+          return `<span class="status-chip status-ok ${disabledClass}" onclick="toggleFilmsCinema('${cinema}')">${cinema}: ${count}</span>`;
+        }).join('');
+      cinemaStatusDiv.innerHTML = `<div class="cinema-status">${statusHtml}</div>`;
+
+      let films = allFilmsData.films;
+
+      // Apply cinema filter
+      if (disabledFilmsCinemas.size > 0) {
+        films = films.filter(film =>
+          film.cinemas.some(cinema => !disabledFilmsCinemas.has(cinema))
+        );
+      }
+
+      // Apply search filter
+      if (searchQuery) {
+        films = films.filter(film =>
+          film.title.toLowerCase().includes(searchQuery)
+        );
+      }
+
+      // Apply sorting
+      if (filmsSortOrder === 'alpha') {
+        films = [...films].sort((a, b) => a.title.localeCompare(b.title, 'sv'));
+      } else {
+        films = [...films].sort((a, b) => b.showingCount - a.showingCount);
+      }
+
+      if (films.length === 0) {
+        container.innerHTML = searchQuery
+          ? '<div class="no-shows">Inga filmer matchar sökningen.</div>'
+          : '<div class="no-shows">Inga filmer hittades.</div>';
+        statsDiv.innerHTML = '';
+        return;
+      }
+
+      container.innerHTML = `<div class="films-list">${films.map(film => {
+        const cinemaTags = film.cinemas
+          .filter(cinema => !disabledFilmsCinemas.has(cinema))
+          .map(cinema => {
+            const cinemaClass = cinema.toLowerCase()
+              .replace(/\s+/g, '')
+              .replace(/ä/g, 'a')
+              .replace(/ö/g, 'o')
+              .replace(/å/g, 'a');
+            return `<span class="film-cinema-tag cinema-${cinemaClass}">${escapeHtml(cinema)}</span>`;
+          }).join('');
+
+        return `
+          <div class="film-card" onclick="showFilmDetail('${escapeHtml(film.title.replace(/'/g, "\\'"))}')">
+            <div class="film-title">${escapeHtml(film.title)}</div>
+            <div class="film-meta">
+              <span class="film-showing-count">${film.showingCount} visningar</span>
+            </div>
+            <div class="film-cinemas">${cinemaTags}</div>
+          </div>
+        `;
+      }).join('')}</div>`;
+
+      statsDiv.innerHTML = `${films.length} filmer | ${allFilmsData.totalShowings} visningar totalt`;
+    }
+
+    function showFilmDetail(title) {
+      if (!allFilmsData) return;
+
+      const film = allFilmsData.films.find(f => f.title === title);
+      if (!film) return;
+
+      currentFilmTitle = title;
+      switchView('filmDetail');
+
+      const container = document.getElementById('filmDetailView');
+
+      // Group showings by date
+      const showingsByDate = {};
+      film.showings.forEach(showing => {
+        if (!showingsByDate[showing.date]) {
+          showingsByDate[showing.date] = [];
+        }
+        showingsByDate[showing.date].push(showing);
+      });
+
+      const dateLabels = {};
+      const today = new Date();
+      for (let i = 0; i < 7; i++) {
+        const date = new Date(today);
+        date.setDate(today.getDate() + i);
+        const dateStr = date.toISOString().split('T')[0];
+        dateLabels[dateStr] = date.toLocaleDateString('sv-SE', {
+          weekday: 'long',
+          month: 'short',
+          day: 'numeric'
+        });
+      }
+
+      let showingsHtml = '';
+      Object.keys(showingsByDate).sort().forEach(date => {
+        const showings = showingsByDate[date];
+        showingsHtml += `<div class="showing-date-header">${dateLabels[date] || date}</div>`;
+        showingsHtml += `<div class="schedule">`;
+        showingsHtml += showings.map(show => {
+          const cinemaClass = show.cinema.toLowerCase()
+            .replace(/\s+/g, '')
+            .replace(/ä/g, 'a')
+            .replace(/ö/g, 'o')
+            .replace(/å/g, 'a');
+
+          const details = [];
+          if (show.duration) details.push(`${show.duration} min`);
+          if (show.ageLimit) details.push(show.ageLimit);
+          if (show.salon) details.push(show.salon);
+          if (show.screen) details.push(show.screen);
+          if (show.seatsAvailable != null && show.seatsTotal != null) {
+            details.push(`${show.seatsAvailable}/${show.seatsTotal} platser`);
+          }
+          if (show.spokenLang || show.subtitleLang) {
+            const langParts = [];
+            if (show.spokenLang) langParts.push(`${show.spokenLang} tal`);
+            if (show.subtitleLang) langParts.push(`${show.subtitleLang} text`);
+            details.push(langParts.join(', '));
+          }
+          if (show.note) details.push(show.note);
+
+          const titleHtml = show.url
+            ? `<a href="${escapeHtml(show.url)}" target="_blank" class="title-link">${escapeHtml(show.title)}</a>`
+            : escapeHtml(show.title);
+
+          return `
+            <div class="showing">
+              <div class="time">${show.time || '?'}</div>
+              <div class="movie-info">
+                <div class="title">${titleHtml}</div>
+                ${details.length > 0 ? `<div class="details">${details.map(d => `<span>${escapeHtml(d)}</span>`).join('')}</div>` : ''}
+              </div>
+              <div class="cinema-badge cinema-${cinemaClass}">${escapeHtml(show.cinema)}</div>
+            </div>
+          `;
+        }).join('');
+        showingsHtml += `</div>`;
+      });
+
+      container.innerHTML = `
+        <div class="film-detail-header">
+          <button class="back-button" onclick="switchView('films')">← Tillbaka</button>
+          <div class="film-detail-title">${escapeHtml(film.title)}</div>
+          <div class="film-detail-stats">${film.showingCount} visningar på ${film.cinemas.length} biograf${film.cinemas.length > 1 ? 'er' : ''}</div>
+        </div>
+        ${showingsHtml}
+      `;
+    }
+
+    function toggleCinema(cinema) {
+      if (disabledCinemas.has(cinema)) {
+        disabledCinemas.delete(cinema);
+      } else {
+        disabledCinemas.add(cinema);
+      }
+      updateHash();
+      renderSchedule();
+    }
+
+    function renderSchedule() {
+      if (!lastScheduleData) return;
+
+      const data = lastScheduleData;
+      const container = document.getElementById('schedule');
+      const errorsDiv = document.getElementById('errors');
+      const statsDiv = document.getElementById('stats');
+
+      // Show cinema status with click handlers
+      if (data.cinemaStatus) {
+        const statusHtml = Object.entries(data.cinemaStatus).map(([cinema, info]) => {
+          let statusClass, label;
+          if (info.status === 'ok') {
+            if (info.count > 0) {
+              statusClass = 'status-ok';
+              label = `${cinema}: ${info.count}`;
+            } else {
+              statusClass = 'status-empty';
+              label = `${cinema}: 0`;
+            }
+          } else if (info.status === 'updating') {
+            statusClass = 'status-updating';
+            label = `${cinema}: laddar...`;
+          } else if (info.status === 'blocked') {
+            statusClass = 'status-blocked';
+            label = `${cinema}: blockerad`;
+          } else if (info.status === 'timeout') {
+            statusClass = 'status-timeout';
+            label = `${cinema}: timeout`;
+          } else {
+            statusClass = 'status-error';
+            label = `${cinema}: fel`;
+          }
+          const disabledClass = disabledCinemas.has(cinema) ? 'disabled' : '';
+          return `<span class="status-chip ${statusClass} ${disabledClass}" onclick="toggleCinema('${cinema}')">${label}</span>`;
+        }).join('');
+        errorsDiv.innerHTML = `<div class="cinema-status">${statusHtml}</div>`;
+      }
+
+      // Filter schedule by enabled cinemas and hide past showings for today
+      const now = new Date();
+      const today = now.toISOString().split('T')[0];
+      const nowMinutes = now.getHours() * 60 + now.getMinutes();
+
+      const filteredSchedule = data.schedule.filter(show => {
+        if (disabledCinemas.has(show.cinema)) return false;
+        if (currentDate === today && show.time) {
+          const [h, m] = show.time.split(':').map(Number);
+          if (h * 60 + m < nowMinutes - 30) return false;
+        }
+        return true;
+      });
+
+      if (filteredSchedule.length === 0) {
+        container.innerHTML = '<div class="no-shows">Inga visningar hittades för detta datum.</div>';
+        statsDiv.innerHTML = '';
+        return;
+      }
+
+      container.innerHTML = filteredSchedule.map(show => {
+        const cinemaClass = show.cinema.toLowerCase()
+          .replace(/\s+/g, '')
+          .replace(/ä/g, 'a')
+          .replace(/ö/g, 'o')
+          .replace(/å/g, 'a');
+
+        const details = [];
+        if (show.duration) details.push(`${show.duration} min`);
+        if (show.ageLimit) details.push(show.ageLimit);
+        if (show.salon) details.push(show.salon);
+        if (show.screen) details.push(show.screen);
+        if (show.seatsAvailable != null && show.seatsTotal != null) {
+          details.push(`${show.seatsAvailable}/${show.seatsTotal} platser`);
+        }
+        if (show.spokenLang || show.subtitleLang) {
+          const langParts = [];
+          if (show.spokenLang) langParts.push(`${show.spokenLang} tal`);
+          if (show.subtitleLang) langParts.push(`${show.subtitleLang} text`);
+          details.push(langParts.join(', '));
+        }
+        if (show.note) details.push(show.note);
+
+        const titleHtml = show.url
+          ? `<a href="${escapeHtml(show.url)}" target="_blank" class="title-link">${escapeHtml(show.title)}</a>`
+          : escapeHtml(show.title);
+
+        return `
+          <div class="showing">
+            <div class="time">${show.time || '?'}</div>
+            <div class="movie-info">
+              <div class="title">${titleHtml}</div>
+              ${details.length > 0 ? `<div class="details">${details.map(d => `<span>${escapeHtml(d)}</span>`).join('')}</div>` : ''}
+            </div>
+            <div class="cinema-badge cinema-${cinemaClass}">${escapeHtml(show.cinema)}</div>
+          </div>
+        `;
+      }).join('');
+
+      // Count by cinema (filtered)
+      const counts = {};
+      filteredSchedule.forEach(s => {
+        counts[s.cinema] = (counts[s.cinema] || 0) + 1;
+      });
+      const countStr = Object.entries(counts)
+        .map(([cinema, count]) => `${cinema}: ${count}`)
+        .join(' | ');
+      statsDiv.innerHTML = `${filteredSchedule.length} visningar | ${countStr}`;
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Load and display build metadata
+    async function loadMetadata() {
+      try {
+        const res = await fetchData('data/metadata.json');
+        const metadata = await res.json();
+        const buildTime = new Date(metadata.buildTime);
+        const formatted = buildTime.toLocaleDateString('sv-SE', {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        document.getElementById('lastUpdated').textContent = `Uppdaterad: ${formatted}`;
+      } catch (error) {
+        // Ignore if metadata not available
+      }
+    }
+
+    // Initial load
+    loadDates().then(() => {
+      if (location.hash && location.hash !== '#') {
+        applyHash();
+      } else {
+        loadSchedule(currentDate);
+      }
+    });
+    loadMetadata();
+  </script>
+</body>
+</html>

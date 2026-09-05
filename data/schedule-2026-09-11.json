@@ -1,0 +1,235 @@
+{
+  "date": "2026-09-11",
+  "schedule": [
+    {
+      "title": "La Grazia",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 133,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/t0w8xjn4mv76ku3",
+      "url": "https://www.bioroy.se/program/la-grazia"
+    },
+    {
+      "time": "17:45",
+      "title": "Kikis expressbud - Klassiker",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": null,
+      "duration": 103,
+      "ageLimit": "Ingen åldersgräns",
+      "genre": "Anime",
+      "is3d": false,
+      "isImax": true,
+      "seatsTotal": 210,
+      "seatsAvailable": 129,
+      "soldOut": false,
+      "spokenLang": "jap",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/6e01dfd6-ba33-4b6f-913f-ffada831c39c/"
+    },
+    {
+      "time": "17:45",
+      "title": "Practical Magic: Family Legacy",
+      "cinema": "Filmstaden",
+      "screen": "Biopalatset",
+      "salon": "Salong 1",
+      "duration": 130,
+      "ageLimit": "11+",
+      "genre": "Komedi",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 92,
+      "seatsAvailable": 31,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/8771fb8f-0cf6-41e8-9ed2-d30fd34dcc6a/"
+    },
+    {
+      "title": "Practical Magic: Family Legacy",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/du7kf71kemwrch1",
+      "url": "https://www.bioroy.se/program/practical-magic-family-legacy"
+    },
+    {
+      "title": "La Grazia",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/la-grazia/"
+    },
+    {
+      "title": "La Grazia",
+      "time": "18:00",
+      "cinema": "Hagabion",
+      "duration": 133,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "med introduktion av filosofen Petra Andersson (Göteborgs universitet)",
+      "spokenLang": "italienska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/la-grazia-2/"
+    },
+    {
+      "time": "18:15",
+      "title": "The Odyssey",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 1",
+      "duration": 172,
+      "ageLimit": "15+",
+      "genre": "Äventyr",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 421,
+      "seatsAvailable": 225,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/df2c1c95-5156-4006-8919-4e11aa734c84/"
+    },
+    {
+      "time": "18:45",
+      "title": "La Grazia",
+      "cinema": "Filmstaden",
+      "screen": "Göta",
+      "salon": "Salong 1",
+      "duration": 127,
+      "ageLimit": "Ingen åldersgräns",
+      "genre": "Drama",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 108,
+      "seatsAvailable": 108,
+      "soldOut": false,
+      "spokenLang": "ita",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/e0150170-42c5-4490-b821-67c108994808/"
+    },
+    {
+      "time": "18:45",
+      "title": "Mutiny",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 5",
+      "duration": 95,
+      "ageLimit": "15+",
+      "genre": "Action",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 80,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/db65a1a3-b1ff-4438-8777-302f11340ee9/"
+    },
+    {
+      "time": "19:00",
+      "title": "Oasis: Don't Look Back In Anger",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 9",
+      "duration": 123,
+      "ageLimit": "Ingen åldersgräns",
+      "genre": "Dokumentär",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 198,
+      "seatsAvailable": 59,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/87862c69-598f-4cb8-93b1-6bd18f676275/"
+    },
+    {
+      "title": "Oasis: Don't Look Back in Anger",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 117,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/1h7xxyw8aw30zea",
+      "url": "https://www.bioroy.se/program/oasis-dont-look-back-in-anger"
+    },
+    {
+      "time": "20:50",
+      "title": "Practical Magic: Family Legacy",
+      "cinema": "Filmstaden",
+      "screen": "Biopalatset",
+      "salon": "Salong 1",
+      "duration": 130,
+      "ageLimit": "11+",
+      "genre": "Komedi",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 92,
+      "seatsAvailable": 88,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/ca0f0499-3556-4e36-be3e-bb320a14bf0a/"
+    },
+    {
+      "time": "21:15",
+      "title": "Mutiny",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 5",
+      "duration": 95,
+      "ageLimit": "15+",
+      "genre": "Action",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 90,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/10add7b5-1356-43d2-b487-49cdd07775b6/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 8,
+      "expectedCount": 8
+    }
+  }
+}
