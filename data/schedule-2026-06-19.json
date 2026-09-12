@@ -1,0 +1,150 @@
+{
+  "date": "2026-06-19",
+  "schedule": [
+    {
+      "time": "18:15",
+      "title": "Cocktail 2",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 8",
+      "duration": 149,
+      "ageLimit": "15+",
+      "genre": "Romantik",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 62,
+      "soldOut": false,
+      "spokenLang": null,
+      "subtitleLang": "eng",
+      "url": "https://www.filmstaden.se/bokning/kop/e620997e-59ef-440c-a100-9f4e4246aa4b/"
+    },
+    {
+      "time": "18:20",
+      "title": "Michael",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 9",
+      "duration": 127,
+      "ageLimit": "11+",
+      "genre": "Musik",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 198,
+      "seatsAvailable": 172,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/6e49b92c-d82f-4277-9fb4-1ccaeffb3d9e/"
+    },
+    {
+      "time": "18:40",
+      "title": "Scary Movie",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 6",
+      "duration": 96,
+      "ageLimit": "11+",
+      "genre": "Komedi",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 76,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/cdae4695-a8d8-4c60-9772-09e39322f42f/"
+    },
+    {
+      "time": "18:45",
+      "title": "Toy Story 5",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 4",
+      "duration": 102,
+      "ageLimit": "Ingen åldersgräns",
+      "genre": "Animerat",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 200,
+      "seatsAvailable": 171,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/bfc2dd0f-0280-4b5b-83bd-3e3b5f1eb0b5/"
+    },
+    {
+      "time": "18:50",
+      "title": "Backrooms",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 11",
+      "duration": 105,
+      "ageLimit": "15+",
+      "genre": "Skräck",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 80,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/0f7b91cf-201f-42be-8a0f-b4b88f3fffc7/"
+    },
+    {
+      "time": "19:00",
+      "title": "Obsession",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 3",
+      "duration": 108,
+      "ageLimit": "15+",
+      "genre": "Skräck",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 198,
+      "seatsAvailable": 108,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/bf1ada1c-06b8-44f1-b97d-65c2c9a8e237/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 6,
+      "expectedCount": 6
+    }
+  }
+}

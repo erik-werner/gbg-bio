@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-12",
+  "schedule": [
+    {
+      "title": "Leviticus",
+      "time": "10:30",
+      "cinema": "Bio Roy",
+      "duration": 88,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/eb5meap2rwfrd83",
+      "url": "https://www.bioroy.se/program/leviticus"
+    },
+    {
+      "title": "The Match",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 91,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/rxye13yn69ly6ml",
+      "url": "https://www.bioroy.se/program/the-match"
+    },
+    {
+      "title": "Svart katt, vit katt",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 127,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/e8yy3v48bdntfmd",
+      "url": "https://www.bioroy.se/program/svart-katt-vit-katt"
+    },
+    {
+      "title": "Rebuilding",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 95,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/zwcpnw3x4rfjc7k",
+      "url": "https://www.bioroy.se/program/rebuilding"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Failed to launch the browser process:  Code: null\n\nstderr:\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n"
+    }
+  }
+}

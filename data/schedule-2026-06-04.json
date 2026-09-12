@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-04",
+  "schedule": [
+    {
+      "title": "Biosalongen abonnerad",
+      "time": "17:00",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": null,
+      "soldOut": false,
+      "ticketUrl": "https://www.bioroy.se/program/biosalongen-abonnerad",
+      "url": "https://www.bioroy.se/program/biosalongen-abonnerad"
+    },
+    {
+      "title": "The Love That Remains",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-love-that-remains/"
+    },
+    {
+      "title": "Nyårsfesten",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/nyarsfesten/"
+    },
+    {
+      "title": "Rave On",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/rave-on/"
+    },
+    {
+      "title": "The Thing with Feathers",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-thing-with-feathers/"
+    },
+    {
+      "title": "The Amazing Digital Circus: The Last Act",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 93,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ul5dxgapkm6k7xg",
+      "url": "https://www.bioroy.se/program/the-amazing-digital-circus-the-last-act"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}

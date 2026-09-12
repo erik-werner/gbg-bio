@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-27",
+  "schedule": [
+    {
+      "title": "Blir du ledsen om jag dör?",
+      "time": "15:00",
+      "cinema": "Bio Roy",
+      "duration": 113,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/lgrml60rch0ehhf",
+      "url": "https://www.bioroy.se/program/blir-du-ledsen-om-jag-dor"
+    },
+    {
+      "title": "Carola!",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 97,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/93vkzjfjbcr9ulz",
+      "url": "https://www.bioroy.se/program/carola"
+    },
+    {
+      "title": "The Invite",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-invite/"
+    },
+    {
+      "title": "Hjärtat mitt",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hjartat-mitt/"
+    },
+    {
+      "title": "The Odyssey",
+      "time": "19:30",
+      "cinema": "Bio Roy",
+      "duration": 172,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/bf0jg4z5v04yfpf",
+      "url": "https://www.bioroy.se/program/the-odyssey"
+    },
+    {
+      "title": "The Odyssey",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-odyssey/"
+    },
+    {
+      "title": "De Gaulle: Motståndets pris",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-motstandets-pris/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Waiting failed: 60000ms exceeded"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-15",
+  "schedule": [
+    {
+      "title": "Sing Along: Hair",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 121,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/2l3nw79az2ryfzg",
+      "url": "https://www.bioroy.se/program/sing-along-hair"
+    },
+    {
+      "title": "Hajen",
+      "time": "20:45",
+      "cinema": "Bio Roy",
+      "duration": 125,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/42cp44209n3u8jh",
+      "url": "https://www.bioroy.se/program/hajen"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Failed to launch the browser process:  Code: null\n\nstderr:\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n"
+    }
+  }
+}
