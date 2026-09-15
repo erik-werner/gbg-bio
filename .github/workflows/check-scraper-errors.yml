@@ -1,0 +1,76 @@
+name: Check scraper errors
+
+on:
+  push:
+    branches: [gh-pages]
+
+# The default GITHUB_TOKEN is read-only; issue creation 403s without this.
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for scraper errors and create issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'scraper-errors.json';
+
+            if (!fs.existsSync(path)) {
+              console.log('No scraper-errors.json found');
+              return;
+            }
+
+            const errors = JSON.parse(fs.readFileSync(path, 'utf8'));
+            if (errors.length === 0) {
+              console.log('No scraper errors');
+              return;
+            }
+
+            const cinemas = [...new Set(errors.map(e => e.cinema))].sort().join(', ');
+            const today = new Date().toISOString().split('T')[0];
+            const title = `Scraper errors ${today}: ${cinemas}`;
+
+            // Check for existing open issue with same title
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+
+            if (existing.some(i => i.title === title)) {
+              console.log(`Issue already exists: ${title}`);
+              return;
+            }
+
+            // Build issue body
+            const byCinema = {};
+            for (const e of errors) {
+              (byCinema[e.cinema] ??= []).push(e);
+            }
+
+            let body = 'Scraper errors detected during automated build.\n\n';
+            for (const cinema of Object.keys(byCinema).sort()) {
+              body += `### ${cinema}\n`;
+              for (const e of byCinema[cinema]) {
+                body += `- **${e.date}**: ${e.status} — ${e.error}\n`;
+              }
+              body += '\n';
+            }
+
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['scraper-error']
+            });
+
+            console.log(`Created issue #${issue.number}`);
