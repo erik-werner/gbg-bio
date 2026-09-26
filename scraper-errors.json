@@ -1,0 +1,86 @@
+[
+  {
+    "cinema": "Capitol",
+    "date": "2026-09-26",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-09-26",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-09-27",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-09-27",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-09-28",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-09-28",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-09-29",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-09-29",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-09-30",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-09-30",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-10-01",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-10-01",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  },
+  {
+    "cinema": "Capitol",
+    "date": "2026-10-02",
+    "status": "error",
+    "error": "Error"
+  },
+  {
+    "cinema": "Aftonstjärnan",
+    "date": "2026-10-02",
+    "status": "timeout",
+    "error": "timeout of 30000ms exceeded"
+  }
+]
