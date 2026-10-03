@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-16",
+  "schedule": [
+    {
+      "title": "Spider-Man: Brand New Day",
+      "time": "10:30",
+      "cinema": "Bio Roy",
+      "duration": 150,
+      "ageLimit": "Ej granskad",
+      "soldOut": true,
+      "ticketUrl": "https://secure.tickster.com/dk6yk09mvb3hvaw",
+      "url": "https://www.bioroy.se/program/spider-man-brand-new-day"
+    },
+    {
+      "title": "Arco",
+      "time": "13:30",
+      "cinema": "Bio Roy",
+      "duration": 82,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/x7tt9by7lxc6uy0",
+      "url": "https://www.bioroy.se/program/arco"
+    },
+    {
+      "title": "En annan Håkan",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 75,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/x271ew6ae3r74u4",
+      "url": "https://www.bioroy.se/program/en-annan-hakan"
+    },
+    {
+      "title": "De Gaulle: Motståndets pris",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-motstandets-pris/"
+    },
+    {
+      "title": "Hjärtat mitt",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hjartat-mitt/"
+    },
+    {
+      "title": "Sleepaway Camp",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 88,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/hwwwy8mhjv2cnyp",
+      "url": "https://www.bioroy.se/program/sleepaway-camp"
+    },
+    {
+      "title": "Hjärtat mitt",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hjartat-mitt/"
+    },
+    {
+      "title": "The Odyssey",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-odyssey/"
+    },
+    {
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "time": "20:00",
+      "cinema": "Bio Roy",
+      "duration": 112,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/rdzxbp4x30fzcyf",
+      "url": "https://www.bioroy.se/program/teenage-sex-and-death-at-camp-miasma"
+    },
+    {
+      "title": "Det grönaste gräset",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/det-gronaste-graset/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}
