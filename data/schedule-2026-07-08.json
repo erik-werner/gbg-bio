@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-08",
+  "schedule": [
+    {
+      "title": "Moonage Daydream",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 135,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/bxbywyhu68wm993",
+      "url": "https://www.bioroy.se/program/moonage-daydream"
+    },
+    {
+      "title": "The Death of Robin Hood",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/gkax1tvxz9wm4fv",
+      "url": "https://www.bioroy.se/program/the-death-of-robin-hood"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Failed to launch the browser process:  Code: null\n\nstderr:\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n"
+    }
+  }
+}
