@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-16",
+  "schedule": [
+    {
+      "title": "Shoooms otroliga resa",
+      "time": "10:00",
+      "cinema": "Hagabion",
+      "duration": 34,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "Småfolkets Bio",
+      "spokenLang": "svenska (dubbat)",
+      "subtitleLang": null,
+      "url": "https://hagabion.se/filmer/shoooms-otroliga-resa/"
+    },
+    {
+      "title": "Saltstigen",
+      "time": "15:00",
+      "cinema": "Frölunda",
+      "duration": null,
+      "url": "https://bio.se/biografer/frolundabion/film/40850/saltstigen"
+    },
+    {
+      "title": "Primavera",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/rbegzt1v7h8dwlt",
+      "url": "https://www.bioroy.se/program/primavera"
+    },
+    {
+      "title": "Primavera",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/primavera/"
+    },
+    {
+      "title": "La Grazia",
+      "time": "16:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/la-grazia/"
+    },
+    {
+      "title": "Resan till Piemonte",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/66kt8exwahw1w7r",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "För döva öron",
+      "time": "18:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/for-dova-oron/"
+    },
+    {
+      "title": "Älska mig för den jag är",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 134,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "Ciné Français - Förhandsvisning",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/alska-mig-den-jag-ar/"
+    },
+    {
+      "title": "Left-Handed Girl",
+      "time": "18:30",
+      "cinema": "Frölunda",
+      "duration": null,
+      "url": "https://bio.se/biografer/frolundabion/film/41848/left-handed-girl"
+    },
+    {
+      "title": "Främlingen",
+      "time": "20:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Quadrophenia",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 120,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ahz2b4afeejl0yr",
+      "url": "https://www.bioroy.se/program/quadrophenia"
+    },
+    {
+      "title": "De levande döda i Rojava",
+      "time": "21:00",
+      "cinema": "Hagabion",
+      "duration": 86,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": "Sista visning",
+      "spokenLang": "kurdiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/de-levande-doda-rojava/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}
