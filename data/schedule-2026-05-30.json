@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-30",
+  "schedule": [
+    {
+      "title": "Djävulen bär Prada 2",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 120,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/1rg5cjlamf2rdmy",
+      "url": "https://www.bioroy.se/program/djavulen-bar-prada-2"
+    },
+    {
+      "title": "The Mandalorian & Grogu",
+      "time": "16:00",
+      "cinema": "Bio Roy",
+      "duration": 132,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/l2vmluf2va5brth",
+      "url": "https://www.bioroy.se/program/the-mandalorian-grogu"
+    },
+    {
+      "title": "Saltstigen",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/saltstigen/"
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/father-mother-sister-brother/"
+    },
+    {
+      "title": "The Love That Remains",
+      "time": "18:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-love-that-remains/"
+    },
+    {
+      "title": "Met: Frida och Diegos sista dröm",
+      "time": "19:00",
+      "cinema": "Bio Roy",
+      "duration": 168,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/x5ce4zem01u6tg0",
+      "url": "https://www.bioroy.se/program/met-frida-och-diegos-sista-drom"
+    },
+    {
+      "title": "Medelklassen",
+      "time": "20:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/medelklassen/"
+    },
+    {
+      "title": "The Thing with Feathers",
+      "time": "20:20",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-thing-with-feathers/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}

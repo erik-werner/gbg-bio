@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-28",
+  "schedule": [
+    {
+      "title": "Arkipelag",
+      "time": "15:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Fåret Shaun och monstret på bondgården",
+      "time": "15:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/faret-shaun-och-monstret-pa-bondgarden/"
+    },
+    {
+      "title": "Fåret Shaun och monstret på bondgården",
+      "time": "15:00",
+      "cinema": "Frölunda",
+      "duration": null,
+      "url": "https://bio.se/biografer/frolundabion/film/42833/faret-shaun-och-monstret-pa-bondgarden"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 116,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/7cvwxcj8tukkfey",
+      "url": "https://www.bioroy.se/program/karlek-over-tanger"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "16:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Vår jord",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 59,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/j8azk65btv82650",
+      "url": "https://www.bioroy.se/program/var-jord"
+    },
+    {
+      "title": "Rosetta",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 95,
+      "ageLimit": "Från 15 år",
+      "salon": "Salong 1",
+      "note": "Ciné Français",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/rosetta/"
+    },
+    {
+      "title": "Blir du ledsen om jag dör?",
+      "time": "18:30",
+      "cinema": "Frölunda",
+      "duration": null,
+      "url": "https://bio.se/biografer/frolundabion/film/42450/blir-du-ledsen-om-jag-dor"
+    },
+    {
+      "title": "Fjord",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "19:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "The Thing",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 109,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/w196w6cccxb8ec1",
+      "url": "https://www.bioroy.se/program/the-thing"
+    },
+    {
+      "title": "NAZA",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Inspelat regisamtal: Rachel Szor & Yuval Abraham",
+      "spokenLang": "hebreiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/naza/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

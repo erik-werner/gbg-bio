@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-30",
+  "schedule": [
+    {
+      "title": "The Librarians",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 92,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ew04bc7z7jdnn94",
+      "url": "https://www.bioroy.se/program/the-librarians"
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/1e20gnkee6luf2g",
+      "url": "https://www.bioroy.se/program/karlek-och-andra-diagnoser"
+    },
+    {
+      "title": "Sense and Sensibility",
+      "time": "17:45",
+      "cinema": "Bio Roy",
+      "duration": 131,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/gykbm3c36cxzp5h",
+      "url": "https://www.bioroy.se/program/sense-and-sensibility"
+    },
+    {
+      "title": "De Gaulle: Frihetens röst",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/"
+    },
+    {
+      "title": "The Devils",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 112,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/fyvgczrb1652ytl",
+      "url": "https://www.bioroy.se/program/the-devils"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

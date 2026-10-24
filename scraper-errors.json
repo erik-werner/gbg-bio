@@ -1,0 +1,44 @@
+[
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-24",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-25",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-26",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-27",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-28",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-29",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  },
+  {
+    "cinema": "Filmstaden",
+    "date": "2026-10-30",
+    "status": "error",
+    "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+  }
+]

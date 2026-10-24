@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-10",
+  "schedule": [
+    {
+      "title": "I Swear",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 120,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/vnjk6v436a3hpjx",
+      "url": "https://www.bioroy.se/program/i-swear"
+    },
+    {
+      "title": "Leviticus",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 88,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/vpm7jmuxvkn5c26",
+      "url": "https://www.bioroy.se/program/leviticus"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Failed to launch the browser process:  Code: null\n\nstderr:\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n"
+    }
+  }
+}
