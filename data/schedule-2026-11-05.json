@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-05",
+  "schedule": [
+    {
+      "title": "Kärlek över Tanger",
+      "time": "14:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "14:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Sense and Sensibility",
+      "time": "14:45",
+      "cinema": "Bio Roy",
+      "duration": 131,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/t8dh10c44cj9p3e",
+      "url": "https://www.bioroy.se/program/sense-and-sensibility"
+    },
+    {
+      "title": "Fjord",
+      "time": "16:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "17:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "We Were Here",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 63,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/teazxey8avx9t2x",
+      "url": "https://www.bioroy.se/program/we-were-here"
+    },
+    {
+      "title": "Fjord",
+      "time": "18:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/fjord/"
+    },
+    {
+      "title": "NAZA",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Screening with English subtitles + Recorded Director Talk: Rachel Szor & Yuval Abraham",
+      "spokenLang": "hebreiska",
+      "subtitleLang": "engelska",
+      "url": "https://hagabion.se/filmer/naza-eng/"
+    },
+    {
+      "title": "De Gaulle: Frihetens röst",
+      "time": "19:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/"
+    },
+    {
+      "title": "Främlingen",
+      "time": "19:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "The Devils",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 112,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/pfum9zhd7t8ljnt",
+      "url": "https://www.bioroy.se/program/the-devils"
+    },
+    {
+      "title": "Enzo",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 102,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/enzo/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 6,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-25",
+  "schedule": [
+    {
+      "title": "Arkipelag",
+      "time": "10:30",
+      "cinema": "Bio Roy",
+      "duration": 107,
+      "ageLimit": "Från 15 år",
+      "soldOut": true,
+      "ticketUrl": "https://secure.tickster.com/yarg2310ldl3mbc",
+      "url": "https://www.bioroy.se/program/arkipelag"
+    },
+    {
+      "title": "Funny Girl – the Musical",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 160,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/531y4ad5xu91t2v",
+      "url": "https://www.bioroy.se/program/funny-girl-the-musical"
+    },
+    {
+      "title": "Liten och stor",
+      "time": "13:00",
+      "cinema": "Hagabion",
+      "duration": 32,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "inget talspråk",
+      "subtitleLang": "ej angivet",
+      "url": "https://hagabion.se/filmer/liten-och-stor/"
+    },
+    {
+      "title": "NAZA",
+      "time": "14:00",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "hebreiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/naza/"
+    },
+    {
+      "title": "Fjord",
+      "time": "14:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Fåret Shaun och monstret på bondgården",
+      "time": "14:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/faret-shaun-och-monstret-pa-bondgarden/"
+    },
+    {
+      "title": "Berätta för alla",
+      "time": "15:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/beratta-for-alla/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "15:45",
+      "cinema": "Hagabion",
+      "duration": 116,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "spanska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-over-tanger/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "16:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Doggerland",
+      "time": "16:30",
+      "cinema": "Bio Roy",
+      "duration": 76,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/6lwuy9yj9gr9dzl",
+      "url": "https://www.bioroy.se/program/doggerland"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "17:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Nipster",
+      "time": "18:00",
+      "cinema": "Hagabion",
+      "duration": 78,
+      "ageLimit": "Från 15 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/nipster/"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "18:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/bad-apples/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "18:45",
+      "cinema": "Bio Roy",
+      "duration": 116,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ph15xy9w2j45l31",
+      "url": "https://www.bioroy.se/program/klara-och-solen"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "19:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Fjord",
+      "time": "19:40",
+      "cinema": "Hagabion",
+      "duration": 146,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "norska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/fjord/"
+    },
+    {
+      "title": "Främlingen",
+      "time": "20:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 7,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

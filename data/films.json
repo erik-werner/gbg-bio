@@ -1,0 +1,1257 @@
+{
+  "films": [
+    {
+      "title": "Arkipelag",
+      "showings": [
+        {
+          "title": "Arkipelag",
+          "time": "18:20",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "13:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "18:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "15:15",
+          "cinema": "Bio Roy",
+          "duration": 107,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/lrlbga2vpn0r5tx",
+          "url": "https://www.bioroy.se/program/arkipelag",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "19:10",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "17:30",
+          "cinema": "Bio Roy",
+          "duration": 107,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/8ybvl9j6rhv6h17",
+          "url": "https://www.bioroy.se/program/arkipelag",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "20:15",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "19:15",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Arkipelag",
+          "time": "17:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/arkipelag/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 9,
+      "cinemas": [
+        "Capitol",
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "showings": [
+        {
+          "title": "Kärlek över Tanger",
+          "time": "16:10",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "15:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "11:00",
+          "cinema": "Angered",
+          "url": "https://angeredsbio.se/filmer/karlek-over-tanger/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "16:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 116,
+          "ageLimit": "Barntillåten",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "spanska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/karlek-over-tanger/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "17:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Kärlek över Tanger",
+          "time": "14:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 7,
+      "cinemas": [
+        "Capitol",
+        "Angered",
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Fjord",
+      "showings": [
+        {
+          "title": "Fjord",
+          "time": "19:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/fjord/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Fjord",
+          "time": "20:30",
+          "cinema": "Hagabion",
+          "duration": 146,
+          "ageLimit": "Från 11 år",
+          "salon": "Salong 1",
+          "note": "Sista visning",
+          "spokenLang": "norska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/fjord/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Fjord",
+          "time": "19:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/fjord/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Fjord",
+          "time": "14:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/fjord/",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Fjord",
+          "time": "16:45",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/fjord/",
+          "date": "2026-11-05"
+        },
+        {
+          "title": "Fjord",
+          "time": "18:00",
+          "cinema": "Angered",
+          "url": "https://angeredsbio.se/filmer/fjord/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 6,
+      "cinemas": [
+        "Capitol",
+        "Hagabion",
+        "Angered"
+      ]
+    },
+    {
+      "title": "Klara och solen",
+      "showings": [
+        {
+          "title": "Klara och solen",
+          "time": "10:30",
+          "cinema": "Bio Roy",
+          "duration": 116,
+          "ageLimit": "Från 11 år",
+          "soldOut": true,
+          "ticketUrl": "https://secure.tickster.com/wg9hayvx8btk09d",
+          "url": "https://www.bioroy.se/program/klara-och-solen",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Klara och solen",
+          "time": "14:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/klara-och-solen/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Klara och solen",
+          "time": "20:15",
+          "cinema": "Bio Roy",
+          "duration": 116,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/6t8zlxfrfne528x",
+          "url": "https://www.bioroy.se/program/klara-och-solen",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Klara och solen",
+          "time": "20:15",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/klara-och-solen/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Klara och solen",
+          "time": "20:20",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/klara-och-solen/",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Klara och solen",
+          "time": "14:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/klara-och-solen/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 6,
+      "cinemas": [
+        "Bio Roy",
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Jävla karlar",
+      "showings": [
+        {
+          "title": "Jävla karlar",
+          "time": "16:00",
+          "cinema": "Bio Roy",
+          "duration": 109,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/g6kth4ln66a0pch",
+          "url": "https://www.bioroy.se/program/javla-karlar",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Jävla karlar",
+          "time": "13:00",
+          "cinema": "Bio Roy",
+          "duration": 109,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/gr1vylknkwl4213",
+          "url": "https://www.bioroy.se/program/javla-karlar",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "Jävla karlar",
+          "time": "18:00",
+          "cinema": "Bio Roy",
+          "duration": 109,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/w3197xur9ylumb3",
+          "url": "https://www.bioroy.se/program/javla-karlar",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "Jävla karlar",
+          "time": "18:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/javla-karlar/",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "Jävla karlar",
+          "time": "20:30",
+          "cinema": "Hagabion",
+          "duration": null,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/javla-karlar/",
+          "date": "2026-11-06"
+        }
+      ],
+      "showingCount": 5,
+      "cinemas": [
+        "Bio Roy",
+        "Capitol",
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Sense and Sensibility",
+      "showings": [
+        {
+          "title": "Sense and Sensibility",
+          "time": "18:30",
+          "cinema": "Bio Roy",
+          "duration": 131,
+          "ageLimit": "Barntillåten",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/r7nx9gz8ba99n8m",
+          "url": "https://www.bioroy.se/program/sense-and-sensibility",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Sense and Sensibility",
+          "time": "19:30",
+          "cinema": "Aftonstjärnan",
+          "duration": 135,
+          "ageLimit": null,
+          "date": "2026-11-02",
+          "url": "https://aftonstjarnan.se/event/sense-and-sensibility/2026-11-02/"
+        },
+        {
+          "title": "Sense and Sensibility",
+          "time": "19:30",
+          "cinema": "Aftonstjärnan",
+          "duration": 135,
+          "ageLimit": null,
+          "date": "2026-11-03",
+          "url": "https://aftonstjarnan.se/event/sense-and-sensibility/2026-11-03/"
+        },
+        {
+          "title": "Sense and Sensibility",
+          "time": "20:15",
+          "cinema": "Bio Roy",
+          "duration": 131,
+          "ageLimit": "Barntillåten",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/k45zy0cnwjell7c",
+          "url": "https://www.bioroy.se/program/sense-and-sensibility",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Sense and Sensibility",
+          "time": "14:45",
+          "cinema": "Bio Roy",
+          "duration": 131,
+          "ageLimit": "Barntillåten",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/t8dh10c44cj9p3e",
+          "url": "https://www.bioroy.se/program/sense-and-sensibility",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 5,
+      "cinemas": [
+        "Bio Roy",
+        "Aftonstjärnan"
+      ]
+    },
+    {
+      "title": "Främlingen",
+      "showings": [
+        {
+          "title": "Främlingen",
+          "time": "16:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/framlingen/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Främlingen",
+          "time": "19:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/framlingen/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Främlingen",
+          "time": "18:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/framlingen/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Främlingen",
+          "time": "19:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/framlingen/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 4,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "NAZA",
+      "showings": [
+        {
+          "title": "NAZA",
+          "time": "14:40",
+          "cinema": "Hagabion",
+          "duration": 80,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "hebreiska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/naza/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "NAZA",
+          "time": "16:15",
+          "cinema": "Hagabion",
+          "duration": 80,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "hebreiska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/naza/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "NAZA",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 80,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": "Screening with English subtitles + Recorded Director Talk: Rachel Szor & Yuval Abraham",
+          "spokenLang": "hebreiska",
+          "subtitleLang": "engelska",
+          "url": "https://hagabion.se/filmer/naza-eng/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Nipster",
+      "showings": [
+        {
+          "title": "Nipster",
+          "time": "16:15",
+          "cinema": "Hagabion",
+          "duration": 78,
+          "ageLimit": "Från 15 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/nipster/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Nipster",
+          "time": "14:40",
+          "cinema": "Hagabion",
+          "duration": 78,
+          "ageLimit": "Från 15 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/nipster/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Nipster",
+          "time": "20:40",
+          "cinema": "Hagabion",
+          "duration": 78,
+          "ageLimit": "Från 15 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/nipster/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "showings": [
+        {
+          "title": "Kärlek och andra diagnoser",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 100,
+          "ageLimit": "Från 7 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/karlek-och-andra-diagnoser/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Kärlek och andra diagnoser",
+          "time": "13:00",
+          "cinema": "Bio Roy",
+          "duration": 110,
+          "ageLimit": "Från 7 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/vu7dnm409rhbkvb",
+          "url": "https://www.bioroy.se/program/karlek-och-andra-diagnoser",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Kärlek och andra diagnoser",
+          "time": "20:30",
+          "cinema": "Hagabion",
+          "duration": 100,
+          "ageLimit": "Från 7 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "svenska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/karlek-och-andra-diagnoser/",
+          "date": "2026-11-02"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Hagabion",
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Enzo",
+      "showings": [
+        {
+          "title": "Enzo",
+          "time": "20:15",
+          "cinema": "Hagabion",
+          "duration": 102,
+          "ageLimit": "Från 11 år",
+          "salon": "Salong 1",
+          "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+          "spokenLang": "franska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/enzo/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Enzo",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 102,
+          "ageLimit": "Från 11 år",
+          "salon": "Salong 1",
+          "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+          "spokenLang": "franska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/enzo/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Enzo",
+          "time": "20:30",
+          "cinema": "Hagabion",
+          "duration": 102,
+          "ageLimit": "Från 11 år",
+          "salon": "Salong 1",
+          "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+          "spokenLang": "franska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/enzo/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Wildwood",
+      "showings": [
+        {
+          "title": "Wildwood",
+          "time": "20:30",
+          "cinema": "Bio Roy",
+          "duration": 132,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/7l7mwnd969rk3kr",
+          "url": "https://www.bioroy.se/program/wildwood",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Wildwood",
+          "time": "17:30",
+          "cinema": "Bio Roy",
+          "duration": 132,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/ydxy5g1gdc2k9w7",
+          "url": "https://www.bioroy.se/program/wildwood",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Wildwood",
+          "time": "17:30",
+          "cinema": "Bio Roy",
+          "duration": 132,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/ttuzg6ngr42941d",
+          "url": "https://www.bioroy.se/program/wildwood",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Bad Apples",
+      "showings": [
+        {
+          "title": "Bad Apples",
+          "time": "17:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/bad-apples/",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Bad Apples",
+          "time": "17:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/bad-apples/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Bad Apples",
+          "time": "18:20",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/bad-apples/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Resan till Piemonte",
+      "showings": [
+        {
+          "title": "Resan till Piemonte",
+          "time": "15:00",
+          "cinema": "Bio Roy",
+          "duration": 111,
+          "ageLimit": "Från 7 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/u2lz02b4bhnjlm4",
+          "url": "https://www.bioroy.se/program/resan-till-piemonte",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Resan till Piemonte",
+          "time": "15:00",
+          "cinema": "Bio Roy",
+          "duration": 111,
+          "ageLimit": "Från 7 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/5zn44zmvchf5b7v",
+          "url": "https://www.bioroy.se/program/resan-till-piemonte",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Resan till Piemonte",
+          "time": "15:30",
+          "cinema": "Bio Roy",
+          "duration": 111,
+          "ageLimit": "Från 7 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/fn7364ncr957596",
+          "url": "https://www.bioroy.se/program/resan-till-piemonte",
+          "date": "2026-11-06"
+        }
+      ],
+      "showingCount": 3,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Papaya - ett frö på äventyr",
+      "showings": [
+        {
+          "title": "Papaya - ett frö på äventyr",
+          "time": "13:00",
+          "cinema": "Hagabion",
+          "duration": 74,
+          "ageLimit": "Barntillåten",
+          "salon": "Salong 1",
+          "note": "Premiär",
+          "spokenLang": "inget talspråk",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/papaya-ett-fro-pa-aventyr/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Papaya - ett frö på äventyr",
+          "time": "13:00",
+          "cinema": "Hagabion",
+          "duration": 74,
+          "ageLimit": "Barntillåten",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "inget talspråk",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/papaya-ett-fro-pa-aventyr/",
+          "date": "2026-11-01"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Primavera",
+      "showings": [
+        {
+          "title": "Primavera",
+          "time": "14:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/primavera/",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Primavera",
+          "time": "14:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/primavera/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Ozzy & Black Sabbath: Back To The Beginning ",
+      "showings": [
+        {
+          "title": "Ozzy & Black Sabbath: Back To The Beginning ",
+          "time": "17:30",
+          "cinema": "Bio Roy",
+          "duration": 147,
+          "ageLimit": "Ej granskad",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/vbkxyft51m85pal",
+          "url": "https://www.bioroy.se/program/ozzy-black-sabbath-back-to-the-beginning",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Ozzy & Black Sabbath: Back To The Beginning ",
+          "time": "20:00",
+          "cinema": "Bio Roy",
+          "duration": 147,
+          "ageLimit": "Ej granskad",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/9651jkz27nylh1h",
+          "url": "https://www.bioroy.se/program/ozzy-black-sabbath-back-to-the-beginning",
+          "date": "2026-11-03"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Palestina 36",
+      "showings": [
+        {
+          "title": "Palestina 36",
+          "time": "13:15",
+          "cinema": "Bio Roy",
+          "duration": 115,
+          "ageLimit": "Ej granskad",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/makxbcvbrmf4jfc",
+          "url": "https://www.bioroy.se/program/palestina-36",
+          "date": "2026-11-01"
+        },
+        {
+          "title": "Palestina 36",
+          "time": "20:30",
+          "cinema": "Hagabion",
+          "duration": 115,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "arabiska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/palestina-36/",
+          "date": "2026-11-03"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Bio Roy",
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "De Gaulle: Frihetens röst",
+      "showings": [
+        {
+          "title": "De Gaulle: Frihetens röst",
+          "time": "16:00",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "De Gaulle: Frihetens röst",
+          "time": "19:15",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Autofiktion",
+      "showings": [
+        {
+          "title": "Autofiktion",
+          "time": "15:45",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/autofiktion/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Autofiktion",
+          "time": "16:10",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 2",
+          "url": "https://www.capitolgbg.se/produktion/autofiktion/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "The Invite",
+      "showings": [
+        {
+          "title": "The Invite",
+          "time": "18:30",
+          "cinema": "Frölunda",
+          "duration": null,
+          "url": "https://bio.se/biografer/frolundabion/film/42511/the-invite",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "The Invite",
+          "time": "15:00",
+          "cinema": "Frölunda",
+          "duration": null,
+          "url": "https://bio.se/biografer/frolundabion/film/42511/the-invite",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 2,
+      "cinemas": [
+        "Frölunda"
+      ]
+    },
+    {
+      "title": "Nosferatu",
+      "showings": [
+        {
+          "title": "Nosferatu",
+          "time": "13:00",
+          "cinema": "Bio Roy",
+          "duration": 95,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/xh48rjbgl8uz6rd",
+          "url": "https://www.bioroy.se/program/nosferatu",
+          "date": "2026-10-31"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "Cinemateket: Susan var är du?",
+      "showings": [
+        {
+          "title": "Cinemateket: Susan var är du?",
+          "time": "14:00",
+          "cinema": "Capitol",
+          "salon": "Cinemateket",
+          "url": "https://www.capitolgbg.se/produktion/cinemateket-susan-var-ar-du/",
+          "date": "2026-10-31"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "The Night of the Hunter",
+      "showings": [
+        {
+          "title": "The Night of the Hunter",
+          "time": "15:15",
+          "cinema": "Bio Roy",
+          "duration": 93,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/eakna8ybcvy4543",
+          "url": "https://www.bioroy.se/program/the-night-of-the-hunter",
+          "date": "2026-10-31"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "A Chinese Ghost story I",
+      "showings": [
+        {
+          "title": "A Chinese Ghost story I",
+          "time": "20:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/a-chinese-ghost-story-i/",
+          "date": "2026-10-31"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Ringu",
+      "showings": [
+        {
+          "title": "Ringu",
+          "time": "22:30",
+          "cinema": "Capitol",
+          "salon": "CAPITOL 1",
+          "url": "https://www.capitolgbg.se/produktion/ringu/",
+          "date": "2026-10-31"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Kreativ verkstad och barnfilm, november",
+      "showings": [
+        {
+          "title": "Kreativ verkstad och barnfilm, november",
+          "time": "12:00",
+          "cinema": "Aftonstjärnan",
+          "duration": 180,
+          "ageLimit": null,
+          "date": "2026-11-01",
+          "url": "https://aftonstjarnan.se/event/kreativ-verkstad-och-barnfilm-november-2/"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Aftonstjärnan"
+      ]
+    },
+    {
+      "title": "When Evil Lurks",
+      "showings": [
+        {
+          "title": "When Evil Lurks",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 99,
+          "ageLimit": null,
+          "salon": "Salong 1",
+          "note": "Cine en español",
+          "spokenLang": "spanska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/when-evil-lurks/",
+          "date": "2026-11-01"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Cinemateket: Det sanna ansiktet",
+      "showings": [
+        {
+          "title": "Cinemateket: Det sanna ansiktet",
+          "time": "18:30",
+          "cinema": "Capitol",
+          "salon": "Cinemateket",
+          "url": "https://www.capitolgbg.se/produktion/cinemateket-det-sanna-ansiktet/",
+          "date": "2026-11-03"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Capitol"
+      ]
+    },
+    {
+      "title": "Gitarren från havet",
+      "showings": [
+        {
+          "title": "Gitarren från havet",
+          "time": "10:00",
+          "cinema": "Hagabion",
+          "duration": 42,
+          "ageLimit": "Barntillåten",
+          "salon": "Salong 1",
+          "note": "Småfolkets Bio",
+          "spokenLang": "svenska (dubbat)",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/gitarren-fran-havet/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Kallt spår",
+      "showings": [
+        {
+          "title": "Kallt spår",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 108,
+          "ageLimit": "Från 15 år",
+          "salon": "Salong 1",
+          "note": "Ciné Français",
+          "spokenLang": "franska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/kallt-spar/",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Obsession",
+      "showings": [
+        {
+          "title": "Obsession",
+          "time": "18:30",
+          "cinema": "Frölunda",
+          "duration": null,
+          "url": "https://bio.se/biografer/frolundabion/film/41996/obsession",
+          "date": "2026-11-04"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Frölunda"
+      ]
+    },
+    {
+      "title": "We Were Here",
+      "showings": [
+        {
+          "title": "We Were Here",
+          "time": "17:30",
+          "cinema": "Bio Roy",
+          "duration": 63,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/teazxey8avx9t2x",
+          "url": "https://www.bioroy.se/program/we-were-here",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "The Devils",
+      "showings": [
+        {
+          "title": "The Devils",
+          "time": "20:30",
+          "cinema": "Bio Roy",
+          "duration": 112,
+          "ageLimit": "Från 15 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/pfum9zhd7t8ljnt",
+          "url": "https://www.bioroy.se/program/the-devils",
+          "date": "2026-11-05"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    },
+    {
+      "title": "En sorglig och vacker värld",
+      "showings": [
+        {
+          "title": "En sorglig och vacker värld",
+          "time": "18:15",
+          "cinema": "Hagabion",
+          "duration": 109,
+          "ageLimit": "Från 11 år",
+          "salon": "Salong 1",
+          "note": null,
+          "spokenLang": "arabiska",
+          "subtitleLang": "svenska",
+          "url": "https://hagabion.se/filmer/en-sorglig-och-vacker-varld/",
+          "date": "2026-11-06"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Hagabion"
+      ]
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "showings": [
+        {
+          "title": "Godzilla Minus Zero",
+          "time": "20:30",
+          "cinema": "Bio Roy",
+          "duration": 119,
+          "ageLimit": "Från 11 år",
+          "soldOut": false,
+          "ticketUrl": "https://secure.tickster.com/u1zvne2x341zc2t",
+          "url": "https://www.bioroy.se/program/godzilla-minus-zero",
+          "date": "2026-11-06"
+        }
+      ],
+      "showingCount": 1,
+      "cinemas": [
+        "Bio Roy"
+      ]
+    }
+  ],
+  "totalShowings": 92
+}

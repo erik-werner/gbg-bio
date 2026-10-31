@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-02",
+  "schedule": [
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/vu7dnm409rhbkvb",
+      "url": "https://www.bioroy.se/program/karlek-och-andra-diagnoser"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "14:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 107,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/lrlbga2vpn0r5tx",
+      "url": "https://www.bioroy.se/program/arkipelag"
+    },
+    {
+      "title": "De Gaulle: Frihetens röst",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "17:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/bad-apples/"
+    },
+    {
+      "title": "Wildwood",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 132,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ydxy5g1gdc2k9w7",
+      "url": "https://www.bioroy.se/program/wildwood"
+    },
+    {
+      "title": "Enzo",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 102,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/enzo/"
+    },
+    {
+      "title": "Fjord",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "19:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Sense and Sensibility",
+      "time": "19:30",
+      "cinema": "Aftonstjärnan",
+      "duration": 135,
+      "ageLimit": null,
+      "date": "2026-11-02",
+      "url": "https://aftonstjarnan.se/event/sense-and-sensibility/2026-11-02/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "20:15",
+      "cinema": "Bio Roy",
+      "duration": 116,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/6t8zlxfrfne528x",
+      "url": "https://www.bioroy.se/program/klara-och-solen"
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 100,
+      "ageLimit": "Från 7 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-och-andra-diagnoser/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-03",
+  "schedule": [
+    {
+      "title": "Kärlek över Tanger",
+      "time": "11:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/karlek-over-tanger/"
+    },
+    {
+      "title": "Resan till Piemonte",
+      "time": "15:00",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/u2lz02b4bhnjlm4",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "Autofiktion",
+      "time": "15:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/autofiktion/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "16:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 107,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/8ybvl9j6rhv6h17",
+      "url": "https://www.bioroy.se/program/arkipelag"
+    },
+    {
+      "title": "Främlingen",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 116,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "spanska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-over-tanger/"
+    },
+    {
+      "title": "Cinemateket: Det sanna ansiktet",
+      "time": "18:30",
+      "cinema": "Capitol",
+      "salon": "Cinemateket",
+      "url": "https://www.capitolgbg.se/produktion/cinemateket-det-sanna-ansiktet/"
+    },
+    {
+      "title": "The Invite",
+      "time": "18:30",
+      "cinema": "Frölunda",
+      "duration": null,
+      "url": "https://bio.se/biografer/frolundabion/film/42511/the-invite"
+    },
+    {
+      "title": "Sense and Sensibility",
+      "time": "19:30",
+      "cinema": "Aftonstjärnan",
+      "duration": 135,
+      "ageLimit": null,
+      "date": "2026-11-03",
+      "url": "https://aftonstjarnan.se/event/sense-and-sensibility/2026-11-03/"
+    },
+    {
+      "title": "Ozzy & Black Sabbath: Back To The Beginning ",
+      "time": "20:00",
+      "cinema": "Bio Roy",
+      "duration": 147,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/9651jkz27nylh1h",
+      "url": "https://www.bioroy.se/program/ozzy-black-sabbath-back-to-the-beginning"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Palestina 36",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 115,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "arabiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/palestina-36/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 6,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

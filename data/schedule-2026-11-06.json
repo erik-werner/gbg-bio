@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-06",
+  "schedule": [
+    {
+      "title": "Jävla karlar",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 109,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/gr1vylknkwl4213",
+      "url": "https://www.bioroy.se/program/javla-karlar"
+    },
+    {
+      "title": "Resan till Piemonte",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/fn7364ncr957596",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "Jävla karlar",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 109,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/w3197xur9ylumb3",
+      "url": "https://www.bioroy.se/program/javla-karlar"
+    },
+    {
+      "title": "Jävla karlar",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/javla-karlar/"
+    },
+    {
+      "title": "En sorglig och vacker värld",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 109,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "arabiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/en-sorglig-och-vacker-varld/"
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 119,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/u1zvne2x341zc2t",
+      "url": "https://www.bioroy.se/program/godzilla-minus-zero"
+    },
+    {
+      "title": "Jävla karlar",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": null,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/javla-karlar/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}
