@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-26",
+  "schedule": [
+    {
+      "title": "Hjärtat mitt",
+      "time": "15:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hjartat-mitt/"
+    },
+    {
+      "title": "Carola!",
+      "time": "16:00",
+      "cinema": "Bio Roy",
+      "duration": 97,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/6zhllkph1kgazwx",
+      "url": "https://www.bioroy.se/program/carola"
+    },
+    {
+      "title": "Främlingen",
+      "time": "16:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "De Gaulle: Motståndets pris",
+      "time": "17:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-motstandets-pris/"
+    },
+    {
+      "title": "The Invite",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 108,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/f2ruf8d9mvfl5wg",
+      "url": "https://www.bioroy.se/program/the-invite"
+    },
+    {
+      "title": "The Invite",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/the-invite/"
+    },
+    {
+      "title": "Hjärtat mitt",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hjartat-mitt/"
+    },
+    {
+      "title": "Ghost: 2 Big To Rig",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 115,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/k1788thxxg5f2jf",
+      "url": "https://www.bioroy.se/program/ghost-2-big-to-rig"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-11",
+  "schedule": [
+    {
+      "title": "Resan till Melonia",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 101,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/tepnth0jw7vgvvd",
+      "url": "https://www.bioroy.se/program/resan-till-melonia"
+    },
+    {
+      "title": "This is England",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 101,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/8wxkf81p17fz270",
+      "url": "https://www.bioroy.se/program/this-is-england"
+    },
+    {
+      "title": "The Invite",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 108,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/pvdw06wyrarc652",
+      "url": "https://www.bioroy.se/program/the-invite"
+    },
+    {
+      "title": "Obsession",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 109,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/hjc86atn9l1r4kw",
+      "url": "https://www.bioroy.se/program/obsession"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: Failed to launch the browser process:  Code: null\n\nstderr:\n\n\nTROUBLESHOOTING: https://pptr.dev/troubleshooting\n"
+    }
+  }
+}
