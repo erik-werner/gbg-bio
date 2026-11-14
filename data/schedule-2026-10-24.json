@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-24",
+  "schedule": [
+    {
+      "title": "Biosalongen abonnerad",
+      "time": "10:00",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": null,
+      "soldOut": false,
+      "ticketUrl": "https://www.bioroy.se/program/biosalongen-abonnerad",
+      "url": "https://www.bioroy.se/program/biosalongen-abonnerad"
+    },
+    {
+      "title": "Varmare Västerhav",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/wgr7cyj5zn5elcx",
+      "url": "https://www.bioroy.se/program/varmare-vasterhav"
+    },
+    {
+      "title": "Lilla spöket Laban busar vidare",
+      "time": "13:00",
+      "cinema": "Hagabion",
+      "duration": 62,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/lilla-spoket-laban-busar-vidare/"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "13:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/bad-apples/"
+    },
+    {
+      "title": "Cinemateket: Bushman",
+      "time": "14:00",
+      "cinema": "Capitol",
+      "salon": "Cinemateket",
+      "url": "https://www.capitolgbg.se/produktion/cinemateket-bushman/"
+    },
+    {
+      "title": "Doggerland",
+      "time": "14:20",
+      "cinema": "Hagabion",
+      "duration": 76,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "Sista visning",
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/doggerland/"
+    },
+    {
+      "title": "Biosalongen abonnerad",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": null,
+      "soldOut": false,
+      "ticketUrl": "https://www.bioroy.se/program/biosalongen-abonnerad",
+      "url": "https://www.bioroy.se/program/biosalongen-abonnerad"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "15:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Palestina 36",
+      "time": "16:00",
+      "cinema": "Hagabion",
+      "duration": 115,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "arabiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/palestina-36/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Nipster",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 78,
+      "ageLimit": "Från 15 år",
+      "salon": "Salong 1",
+      "note": "Premiär",
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/nipster/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "18:30",
+      "cinema": "Bio Roy",
+      "duration": 116,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/yz3cr71axm41j1r",
+      "url": "https://www.bioroy.se/program/klara-och-solen"
+    },
+    {
+      "title": "Fjord",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "20:00",
+      "cinema": "Hagabion",
+      "duration": 116,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "spanska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-over-tanger/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "20:45",
+      "cinema": "Bio Roy",
+      "duration": 107,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ck3md1xm6phjww1",
+      "url": "https://www.bioroy.se/program/arkipelag"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 6,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

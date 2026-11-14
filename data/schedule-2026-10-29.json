@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-29",
+  "schedule": [
+    {
+      "title": "Fåret Shaun och monstret på bondgården",
+      "time": "14:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/faret-shaun-och-monstret-pa-bondgarden/"
+    },
+    {
+      "title": "Fjord",
+      "time": "14:40",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Resan till Piemonte",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/rvu821v69thh417",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "15:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "17:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Everest: The Other Side",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/n5fgb58dg6dce9f",
+      "url": "https://www.bioroy.se/program/everest-the-other-side"
+    },
+    {
+      "title": "Främlingen",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "18:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/karlek-over-tanger/"
+    },
+    {
+      "title": "NAZA",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Inspelat regisamtal: Rachel Szor & Yuval Abraham, samtalet sker på engelska",
+      "spokenLang": "hebreiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/naza/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "19:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Broken Voices",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/broken-voices/"
+    },
+    {
+      "title": "Rosemarys baby",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 138,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/l78f2ux88e9gf7n",
+      "url": "https://www.bioroy.se/program/rosemarys-baby"
+    },
+    {
+      "title": "Nipster",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 78,
+      "ageLimit": "Från 15 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/nipster/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 7,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}
