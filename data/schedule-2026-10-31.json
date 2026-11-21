@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-31",
+  "schedule": [
+    {
+      "title": "Nosferatu",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 95,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/xh48rjbgl8uz6rd",
+      "url": "https://www.bioroy.se/program/nosferatu"
+    },
+    {
+      "title": "Papaya - ett frö på äventyr",
+      "time": "13:00",
+      "cinema": "Hagabion",
+      "duration": 74,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "Premiär",
+      "spokenLang": "inget talspråk",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/papaya-ett-fro-pa-aventyr/"
+    },
+    {
+      "title": "Cinemateket: Susan var är du?",
+      "time": "14:00",
+      "cinema": "Capitol",
+      "salon": "Cinemateket",
+      "url": "https://www.capitolgbg.se/produktion/cinemateket-susan-var-ar-du/"
+    },
+    {
+      "title": "Primavera",
+      "time": "14:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/primavera/"
+    },
+    {
+      "title": "NAZA",
+      "time": "14:40",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "hebreiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/naza/"
+    },
+    {
+      "title": "The Night of the Hunter",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 93,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/eakna8ybcvy4543",
+      "url": "https://www.bioroy.se/program/the-night-of-the-hunter"
+    },
+    {
+      "title": "Kärlek över Tanger",
+      "time": "16:10",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/karlek-over-tanger/"
+    },
+    {
+      "title": "Nipster",
+      "time": "16:15",
+      "cinema": "Hagabion",
+      "duration": 78,
+      "ageLimit": "Från 15 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/nipster/"
+    },
+    {
+      "title": "Främlingen",
+      "time": "16:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Ozzy & Black Sabbath: Back To The Beginning ",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": 147,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/vbkxyft51m85pal",
+      "url": "https://www.bioroy.se/program/ozzy-black-sabbath-back-to-the-beginning"
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 100,
+      "ageLimit": "Från 7 år",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-och-andra-diagnoser/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "18:20",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Fjord",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Enzo",
+      "time": "20:15",
+      "cinema": "Hagabion",
+      "duration": 102,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": "Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av regissör Campillo.",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/enzo/"
+    },
+    {
+      "title": "Wildwood",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 132,
+      "ageLimit": "Från 11 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/7l7mwnd969rk3kr",
+      "url": "https://www.bioroy.se/program/wildwood"
+    },
+    {
+      "title": "A Chinese Ghost story I",
+      "time": "20:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/a-chinese-ghost-story-i/"
+    },
+    {
+      "title": "Ringu",
+      "time": "22:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/ringu/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 8,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

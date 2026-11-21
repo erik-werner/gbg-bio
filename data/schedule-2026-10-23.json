@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-23",
+  "schedule": [
+    {
+      "title": "Resan till Piemonte",
+      "time": "14:30",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/8p6k007ed858eb8",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "Fjord",
+      "time": "15:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Nouvelle Vague - Den Nya Vågen",
+      "time": "17:00",
+      "cinema": "Hagabion",
+      "duration": 105,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": "Kulturnatta - Fritt inträde!",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/nouvelle-vague-den-nya-vagen/"
+    },
+    {
+      "title": "Biosalongen abonnerad",
+      "time": "17:30",
+      "cinema": "Bio Roy",
+      "duration": null,
+      "ageLimit": null,
+      "soldOut": false,
+      "ticketUrl": "https://www.bioroy.se/program/biosalongen-abonnerad",
+      "url": "https://www.bioroy.se/program/biosalongen-abonnerad"
+    },
+    {
+      "title": "Klara och solen",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/klara-och-solen/"
+    },
+    {
+      "title": "Främlingen",
+      "time": "18:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Mandomsprovet (The Graduate)",
+      "time": "19:30",
+      "cinema": "Hagabion",
+      "duration": null,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Kulturnatta - Fritt inträde!",
+      "spokenLang": null,
+      "subtitleLang": null,
+      "url": "https://hagabion.se/filmer/mandomsprovet/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "LadyBug Short Film Marathon",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 120,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://www.bioroy.se/program/ladybugshortfilmmarathon",
+      "url": "https://www.bioroy.se/program/ladybug-short-film-marathon"
+    },
+    {
+      "title": "Autofiktion",
+      "time": "20:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/autofiktion/"
+    },
+    {
+      "title": "Hemlig film",
+      "time": "23:00",
+      "cinema": "Hagabion",
+      "duration": null,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Kulturnatta - Fritt inträde!",
+      "spokenLang": null,
+      "subtitleLang": null,
+      "url": "https://hagabion.se/filmer/kulturnatta/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 5,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-30",
+  "schedule": [
+    {
+      "title": "The Librarians",
+      "time": "13:00",
+      "cinema": "Bio Roy",
+      "duration": 92,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/ew04bc7z7jdnn94",
+      "url": "https://www.bioroy.se/program/the-librarians"
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "15:15",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/1e20gnkee6luf2g",
+      "url": "https://www.bioroy.se/program/karlek-och-andra-diagnoser"
+    },
+    {
+      "title": "Fåret Shaun och monstret på bondgården",
+      "time": "16:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/faret-shaun-och-monstret-pa-bondgarden/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "16:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Sense and Sensibility",
+      "time": "17:45",
+      "cinema": "Bio Roy",
+      "duration": 131,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/gykbm3c36cxzp5h",
+      "url": "https://www.bioroy.se/program/sense-and-sensibility"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/bad-apples/"
+    },
+    {
+      "title": "Enzo",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 102,
+      "ageLimit": "Från 11 år",
+      "salon": "Salong 1",
+      "note": "Premiär + Presentation av Karolina Westling lektor i filmvetenskap på Göteborgs universitet. Observera att undertexter saknas för vissa delar av den ukrainska dialogen. Detta är ett medvetet konstnärligt val av Campillo.",
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/enzo/"
+    },
+    {
+      "title": "De Gaulle: Frihetens röst",
+      "time": "19:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/de-gaulle-frihetens-rost/"
+    },
+    {
+      "title": "Främlingen",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "The Devils",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 112,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/fyvgczrb1652ytl",
+      "url": "https://www.bioroy.se/program/the-devils"
+    },
+    {
+      "title": "Kärlek och andra diagnoser",
+      "time": "20:40",
+      "cinema": "Hagabion",
+      "duration": 100,
+      "ageLimit": "Från 7 år",
+      "salon": "Salong 1",
+      "note": "Premiär",
+      "spokenLang": "svenska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/karlek-och-andra-diagnoser/"
+    },
+    {
+      "title": "Color Out of Space",
+      "time": "22:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/color-out-of-space/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 6,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

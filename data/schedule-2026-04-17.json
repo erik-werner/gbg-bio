@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-17",
+  "schedule": [
+    {
+      "title": "Gruffalon (Sv. tal)",
+      "time": "09:30",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/gruffalon-sv-tal/"
+    },
+    {
+      "title": "Specialvisning: Je m'appelle Agneta",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/a81331nrhjd6bx6",
+      "url": "https://www.bioroy.se/program/specialvisning-je-mappelle-agneta"
+    },
+    {
+      "title": "Nyårsfesten",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/nyarsfesten/"
+    },
+    {
+      "title": "Hamnet",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/hamnet/"
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/father-mother-sister-brother/"
+    },
+    {
+      "title": "Franz K.",
+      "time": "20:20",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/franz-k/"
+    },
+    {
+      "time": "22:30",
+      "title": "Whistle",
+      "cinema": "Filmstaden",
+      "screen": "Bergakungen",
+      "salon": "Salong 7",
+      "duration": 100,
+      "ageLimit": "15+",
+      "genre": "Skräck",
+      "is3d": false,
+      "isImax": false,
+      "seatsTotal": 98,
+      "seatsAvailable": 85,
+      "soldOut": false,
+      "spokenLang": "eng",
+      "subtitleLang": "sve",
+      "url": "https://www.filmstaden.se/bokning/kop/090d7ddb-f8c0-430b-83a6-f6353432b344/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": 1
+    }
+  }
+}
