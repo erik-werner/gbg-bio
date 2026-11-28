@@ -1,0 +1,106 @@
+name: Check scraper errors
+
+on:
+  push:
+    branches: [gh-pages]
+  # Every other trigger depends on the Pi pushing something, so this is what
+  # notices when it stops.
+  schedule:
+    - cron: '17 */2 * * *'
+
+# The default GITHUB_TOKEN is read-only; issue creation 403s without this.
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for scraper errors and create issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Builds run every 12 hours: allow for a slow build and the 13-hour
+            // gap when the clocks change, but not for one going missing.
+            const MAX_SITE_AGE_HOURS = 14;
+
+            function staleSiteErrors() {
+              const { buildTime } = JSON.parse(fs.readFileSync('data/metadata.json', 'utf8'));
+              const ageHours = (Date.now() - new Date(buildTime)) / 3600000;
+              if (ageHours <= MAX_SITE_AGE_HOURS) return [];
+              return [{
+                cinema: 'Site',
+                date: buildTime,
+                status: 'stale',
+                error: `no successful build for ${Math.round(ageHours)} hours, so the Pi may be down`
+              }];
+            }
+
+            function scraperErrors() {
+              const path = 'scraper-errors.json';
+              if (!fs.existsSync(path)) return [];
+              return JSON.parse(fs.readFileSync(path, 'utf8'));
+            }
+
+            const errors = context.eventName === 'schedule' ? staleSiteErrors() : scraperErrors();
+            if (errors.length === 0) {
+              console.log('No errors');
+              return;
+            }
+
+            const cinemas = [...new Set(errors.map(e => e.cinema))].sort().join(', ');
+            const today = new Date().toISOString().split('T')[0];
+            const title = `Scraper errors ${today}: ${cinemas}`;
+
+            // Check for existing open issue with same title
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+
+            if (existing.some(i => i.title === title)) {
+              console.log(`Issue already exists: ${title}`);
+              return;
+            }
+
+            // Build issue body
+            const byCinema = {};
+            for (const e of errors) {
+              (byCinema[e.cinema] ??= []).push(e);
+            }
+
+            const owner = context.repo.owner;
+            let body = `Problems detected by the automated checks. cc @${owner}\n\n`;
+            for (const cinema of Object.keys(byCinema).sort()) {
+              body += `### ${cinema}\n`;
+              for (const e of byCinema[cinema]) {
+                body += `- **${e.date}**: ${e.status} — ${e.error}\n`;
+                if (e.log) body += `\n\`\`\`\n${e.log}\n\`\`\`\n`;
+              }
+              body += '\n';
+            }
+
+            // GitHub only emails about an issue if you watch the repo or take
+            // part in it, and a bot-authored issue involves nobody, so assign it.
+            const { data: issue } = await github.rest.issues.create({
+              owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['scraper-error'],
+              assignees: [owner]
+            });
+
+            console.log(`Created issue #${issue.number}`);
+
+            // Second route to the inbox, under a separate notification setting:
+            // GitHub emails the pusher about failed runs. Only fail when opening
+            // an issue, so a day-long outage alerts once, not on every run.
+            core.setFailed(`${title}: ${issue.html_url}`);

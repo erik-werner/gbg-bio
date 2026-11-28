@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-22",
+  "schedule": [
+    {
+      "title": "Min kära",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 110,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/wgx1w0rh6x3bacc",
+      "url": "https://www.bioroy.se/program/min-kara"
+    },
+    {
+      "title": "Främlingen",
+      "time": "17:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/framlingen/"
+    },
+    {
+      "title": "Berätta för alla",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 112,
+      "ageLimit": "Ej granskad",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/5lnzzt21cryethe",
+      "url": "https://www.bioroy.se/program/beratta-for-alla"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/arkipelag/"
+    },
+    {
+      "title": "Palestina 36",
+      "time": "18:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/palestina-36/"
+    },
+    {
+      "title": "Palestina 36",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 115,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "arabiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/palestina-36/"
+    },
+    {
+      "title": "Kokuho",
+      "time": "19:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/kokuho/"
+    },
+    {
+      "title": "Fjord",
+      "time": "20:15",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/fjord/"
+    },
+    {
+      "title": "Arkipelag",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 107,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/5bhbhx6xt4bfjd4",
+      "url": "https://www.bioroy.se/program/arkipelag"
+    },
+    {
+      "title": "Broken Voices",
+      "time": "20:30",
+      "cinema": "Hagabion",
+      "duration": 106,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Sista visning",
+      "spokenLang": "tjeckiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/broken-voices/"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "error",
+      "error": "session failed: The browser is already running for /home/erik/.cache/gbg-bio-puppeteer. Use a different `userDataDir` or stop the running browser first."
+    }
+  }
+}

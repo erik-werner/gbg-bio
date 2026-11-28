@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-01",
+  "schedule": [
+    {
+      "title": "Autofiktion",
+      "time": "15:30",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Barntillåten",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/7wtxfn04hh6ku38",
+      "url": "https://www.bioroy.se/program/autofiktion"
+    },
+    {
+      "title": "Primavera",
+      "time": "17:30",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/primavera/"
+    },
+    {
+      "title": "Resan till Piemonte",
+      "time": "18:00",
+      "cinema": "Bio Roy",
+      "duration": 111,
+      "ageLimit": "Från 7 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/y17r03unz51hpt9",
+      "url": "https://www.bioroy.se/program/resan-till-piemonte"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "18:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/bad-apples/"
+    },
+    {
+      "title": "Primavera",
+      "time": "18:00",
+      "cinema": "Angered",
+      "url": "https://angeredsbio.se/filmer/primavera/"
+    },
+    {
+      "title": "NAZA",
+      "time": "18:15",
+      "cinema": "Hagabion",
+      "duration": 80,
+      "ageLimit": null,
+      "salon": "Salong 1",
+      "note": "Premiär",
+      "spokenLang": "hebreiska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/naza/"
+    },
+    {
+      "title": "Siri Hustvedt - Dance Around the Self",
+      "time": "19:45",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 2",
+      "url": "https://www.capitolgbg.se/produktion/siri-hustvedt-dance-around-the-self/"
+    },
+    {
+      "title": "Autofiktion",
+      "time": "20:00",
+      "cinema": "Capitol",
+      "salon": "CAPITOL 1",
+      "url": "https://www.capitolgbg.se/produktion/autofiktion/"
+    },
+    {
+      "title": "Älska mig för den jag är",
+      "time": "20:00",
+      "cinema": "Hagabion",
+      "duration": 134,
+      "ageLimit": "Barntillåten",
+      "salon": "Salong 1",
+      "note": null,
+      "spokenLang": "franska",
+      "subtitleLang": "svenska",
+      "url": "https://hagabion.se/filmer/alska-mig-den-jag-ar/"
+    },
+    {
+      "title": "Bad Apples",
+      "time": "20:30",
+      "cinema": "Bio Roy",
+      "duration": 100,
+      "ageLimit": "Från 15 år",
+      "soldOut": false,
+      "ticketUrl": "https://secure.tickster.com/cep9lf2u20d604e",
+      "url": "https://www.bioroy.se/program/bad-apples"
+    }
+  ],
+  "cinemaStatus": {
+    "Bio Roy": {
+      "status": "ok",
+      "count": 3,
+      "expectedCount": null
+    },
+    "Capitol": {
+      "status": "ok",
+      "count": 4,
+      "expectedCount": null
+    },
+    "Hagabion": {
+      "status": "ok",
+      "count": 2,
+      "expectedCount": null
+    },
+    "Aftonstjärnan": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Angered": {
+      "status": "ok",
+      "count": 1,
+      "expectedCount": null
+    },
+    "Frölunda": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    },
+    "Filmstaden": {
+      "status": "ok",
+      "count": 0,
+      "expectedCount": null
+    }
+  }
+}
